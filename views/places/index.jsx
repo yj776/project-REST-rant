@@ -1,15 +1,5 @@
 const React = require ('react')
 const Def = require('../default')
-
-
-
-// function index(){
-//     return(
-//         <Def>
-//             <h2>Places</h2>
-//         </Def>
-//     )
-// }
   
 
 function index(data){
