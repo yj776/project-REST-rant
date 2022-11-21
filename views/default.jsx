@@ -6,6 +6,11 @@ function Def(html) {
         <html>
             <head>
                 <title>Title</title>
+                <link rel="stylesheet" href = ""/>
+                <h2>
+                    <a href="/places"><button className="btn-primary">Places Page</button>
+                    </a>
+                </h2>
             </head>
             <body>
                 {html.children}

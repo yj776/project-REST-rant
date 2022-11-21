@@ -1,9 +1,9 @@
-const express = require('express')
-const app = express()
+// const express = require('express')
+// const app = express()
 const router = require('express').Router()
 
 // Get /places
-app.get('/', (req,res) => {
+router.get('/', (req,res) => {
       let places = [{
         name: 'H-Thai-ML',
         city: 'Seattle',
