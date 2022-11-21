@@ -1,4 +1,10 @@
 h1{
     text-align: center;
     color: cornflowerblue;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+p,div{
+    text-align: center;
 }
