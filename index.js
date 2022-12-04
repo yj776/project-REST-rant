@@ -16,6 +16,7 @@ app.get('/', (req,res) => {
 })
 
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({ extended: true }))
 
 
 app.get('*',(req,res) => {

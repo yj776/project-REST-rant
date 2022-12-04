@@ -29,6 +29,11 @@ router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
+// Post/ place route
+router.post('/', (req, res) => {
+  console.log(req.body)
+  res.send('POST /places')
+})
 
 
 // Get /places/show route
