@@ -24,10 +24,11 @@ router.get('/', (req,res) => {
     res.render('places/index', {places})
 })
 
-
+// places/new route
 router.get('/new', (req, res) => {
   res.render('places/new')
 })
+
 
 
 // Get /places/show route
