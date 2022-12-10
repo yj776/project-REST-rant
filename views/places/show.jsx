@@ -24,12 +24,13 @@ function show(data) {
               
             <h2>Rating</h2>
             <h3>Description</h3>
-              <p>{data.place.city}</p>
-              <p>{data.place.state}</p>
-              <p>{data.place.cuisines}</p>
+              <p>Located in {data.place.city}, {data.place.state} </p>
+              {/* <p>{data.place.state}</p> */}
+              <p>Serving {data.place.cuisines}</p>
               <hr/>
             <footer>
                 <h3>Comments</h3>
+                <p>{data.place.showEstablished()}</p>
             </footer>
            
 
